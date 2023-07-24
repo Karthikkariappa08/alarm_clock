@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #082032;
+  }
+  
+  .container .clock {
+    font-family: "Orbitron", sans-serif;
+    font-size: 10vw;
+    background-image: linear-gradient(180deg, #52006a, #cd113b, #ff7600, #ffa900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  
+  .container .controlls {
+    margin-top: 20px;
+  }
+  .container .controlls .button {
+    border: none;
+    padding: 7px 15px;
+    color: white;
+    border-radius: 7px;
+    margin-left: 4px;
+    width: 140px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container .controlls .button:hover {
+    letter-spacing: 1.2px;
+  }
+  .container .controlls .setAlarm {
+    background-color: #297f87;
+  }
+  
+  .container .controlls .clearAlarm {
+    background-color: #7d1935;
+  }
